@@ -172,6 +172,10 @@ a:hover {
   width: 40%;
 }
 
+.fill-20 {
+  width: 20%;
+}
+
 /* Tabelas */
 .table {
   width: 100%;
