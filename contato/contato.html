@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Contato Pessoal</h1>
+    </header>
+
+    <main class="section">
+      <p>
+        <strong>Tel:</strong> <a href="tel:+351912155966">+351 912 155 966</a>
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:cleitoncfs@gmail.com">cleitoncfs@gmail.com</a>
+      </p>
+      <p>
+        <strong>Endereço:</strong> Avenida Nossa Senhora de Fátima, 25 – Leiria,
+        Portugal
+      </p>
+    </main>
+
+    <section class="section">
+      <h2>Formulário de Contato</h2>
+      <form
+        action="mailto:cleitoncfs@gmail.com"
+        method="post"
+        enctype="text/plain"
+        class="form"
+      >
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="form-group">
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" name="idade" />
+        </div>
+        <div class="form-group">
+          <label for="data">Data de nascimento:</label>
+          <input type="date" id="data" name="data" />
+        </div>
+        <div class="form-group">
+          <label>Gênero:</label>
+          <label
+            ><input type="radio" name="genero" value="masculino" />
+            Masculino</label
+          >
+          <label
+            ><input type="radio" name="genero" value="feminino" />
+            Feminino</label
+          >
+        </div>
+        <div class="form-group">
+          <label for="arquivo">Foto:</label>
+          <input type="file" id="arquivo" name="arquivo" />
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+        </div>
+        <div class="form-group">
+          <label
+            ><input type="checkbox" id="aceito" name="aceito" /> Aceito os
+            termos</label
+          >
+        </div>
+        <div class="form-actions">
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <h2><a href="/index.html">Voltar</a></h2>
+    </footer>
+  </body>
+</html>
